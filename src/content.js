@@ -15,7 +15,7 @@ export const EXPERIENCE = [
   {
     role: "Data Analyst Intern",
     company: "Safran Helicopter Engines",
-    period: "May 2026 — Aug 2026",
+    period: "May 2026 — Present",
     stack: "Excel, Power Query, Power BI, SAP",
     points: [
       "Implemented a data search feature in Excel using Power Query to streamline manual workflows, reducing data search time by 3%.",
@@ -37,6 +37,17 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "SpreadAI — Sports Betting Analytics Platform",
+    year: "2026",
+    stack: "Python, CustomTkinter, The Odds API, ESPN API",
+    points: [
+      "Awarded up to $5,000 in venture funding from the Draper Foundation.",
+      "Built a desktop sports betting edge finder aggregating live odds from six major sportsbooks via The Odds API, with ESPN, PrizePicks, and Underdog integrations for player stats and props.",
+      "Engineered a cross-book market engine computing de-vigged fair probabilities, +EV and arbitrage detection, and Kelly-criterion stake sizing across moneyline, spread, and totals markets.",
+      "Designed an auto-generating parlay engine with three risk modes (safest, balanced, high-upside) balancing hit probability, expected value, and payout.",
+    ],
+  },
   {
     title: "ETL Data Pipeline — Cryptocurrency Price Automation",
     year: "2025",
